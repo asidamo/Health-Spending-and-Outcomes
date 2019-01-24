@@ -7,18 +7,17 @@ library(shiny)
 library(shinydashboard)
 library(plotly)
 
-# read data for national health expenditure per capita.
-healthExp<-readRDS('./data/healthExp.RDS')
-
-# read data for health spending categories
+# read data for health spending by categories
 
 HealthExpCat<-readRDS('./data/HealthExpCategories.RDS')
+
 HECcountries<-as.data.frame(HealthExpCat)
 
 HECcountries<-HECcountries%>%
   select(country)%>%
   unique()
 
+colnames(HealthExpCat)
 HECcountries<-sort(HECcountries$country)
 
 # data for HealthResources 

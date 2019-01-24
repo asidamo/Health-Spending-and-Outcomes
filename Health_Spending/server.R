@@ -1,4 +1,3 @@
-source("./Server_Components/NHEPerCapita2_Server.R")
 source("./Server_Components/HealthExpCategories_Server.R")
 source("./Server_Components/HealthCareResources_Server.R")
 source("./Server_Components/HCareUtilization_Server.R")
@@ -9,8 +8,7 @@ source("./Server_Components/ChargeToCostRatio_Server.R")
 
 shinyServer(function(input, output,Session) {
   
-  NHEPerCapita2_Server(input, output,Session)
-  HealthExpCategories_Server(input,output,Session)
+   HealthExpCategories_Server(input,output,Session)
   HealthCareResources_Server(input,output,Session)
   HCareUtilization_Server(input,output,Session)
   HealthCareQuality_Server(input,output,Session)

@@ -7,14 +7,18 @@ HealthExpCategories_Server<-function(input,output,Session){
      HealthExpCat<-HealthExpCat%>%
           filter(country %in% input$HealthExpCat_country,year>=input$HealthExpCat_year[1] & year<=input$HealthExpCat_year[2])
         
+     if (input$HealthExpCat_y=='percapitaHealthExp'){
+       title_var='Per Capita Health Spending Trend USA vs OECD Countries'
         
-        if (input$HealthExpCat_y=='PerCapitaPharmaExp'){
+        }else if (input$HealthExpCat_y=='PerCapitaPharmaExp'){
           title_var='Per Capita Pharmaceutical Spending Trend USA vs OECD Countries'
         } else {
           title_var='Share of Health Expenditure by categories USA vs OECD Countries'
         }
         
-        if (input$HealthExpCat_y=='PerCapitaPharmaExp'){
+     if (input$HealthExpCat_y=='percapitaHealthExp'){
+       ylabel='Health Spending in $US' 
+        }else if (input$HealthExpCat_y=='PerCapitaPharmaExp'){
           ylabel='Pharmaceutical Spending in $US'
         } else {
           ylabel='percentage share of NHE'

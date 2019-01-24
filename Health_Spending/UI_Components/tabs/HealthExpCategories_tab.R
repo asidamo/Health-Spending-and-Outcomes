@@ -10,14 +10,14 @@ HealthExpCategories_tab<-tabItem(
         column(4, checkboxGroupInput(inputId = "HealthExpCat_country",
                                      label = "CountryName",
                                      choices = HECcountries,
-                                     selected = HECcountries[1]) ),
+                                     selected = HECcountries[6]) ),
         
         # select input
         # Select variable for y-axis
         column(4,  selectInput(inputId = "HealthExpCat_y", 
                                label = "Y-axis:",
-                               choices = colnames(HealthExpCat)[3:7],
-                               selected =colnames(HealthExpCat)[3])),
+                               choices = colnames(HealthExpCat)[3:8],
+                               selected =colnames(HealthExpCat)[7])),
        
         
         column(6,sliderInput("HealthExpCat_year", "Years",
