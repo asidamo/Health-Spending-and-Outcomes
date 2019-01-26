@@ -9,7 +9,7 @@ HealthCareQuality_tab<-tabItem(
         # select input
         # Select variable for y-axis
         column(6,    selectInput(inputId = "QI_y", 
-                                 label = "Y-axis:",
+                                 label = "Healthcare Quality Indicators:",
                                  choices = colnames(healthcareQI)[4:8],
                                  selected=colnames(healthcareQI)[4])),
         

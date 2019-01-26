@@ -5,13 +5,13 @@ HospitalPrices_Server<-function(input,output,Session){
     
     
     if(input$hospitalCharges_y=='AveragePricePerAppendectomy'){
-      title_var='Average Price per Appendectomy'
+      title_var='Average Price per Appendectomy in 2016'
     } else if (input$hospitalCharges_y=='AveragePricePerCaesareanSection'){
-      title_var='Average Price per Caesarean Section'
-    }else if (input$hospitalCharges_y=='PricePerNormalDelivery'){
-      title_var='Price per Normal Delivery'
+      title_var='Average Price per Caesarean Section in 2016'
+    }else if (input$hospitalCharges_y=='PricePerNormalDelivery in 2016'){
+      title_var='Price per Normal Delivery in 2016'
     } else {
-      title_var='Average Price per MRI Exam'
+      title_var='Average Price per MRI Exam in 2016'
     }
     
     

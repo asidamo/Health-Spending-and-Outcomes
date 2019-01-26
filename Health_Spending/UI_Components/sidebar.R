@@ -1,12 +1,13 @@
 sidebar<-dashboardSidebar(
-  tags$blockquote('National Health Expenditure Per Capita'),
+  tags$blockquote('Health Spending In USA vs other OECD Countries'),
   sidebarMenu(
     menuItem("Health Spending Categories",tabName = "HealthExpCat"),
-    menuItem("Health Care Resources",tabName = "HCareResources"),
-    menuItem("Health Care Utilization",tabName = "HCareUtilization"),
-    menuItem("Health Care Quality",tabName = "HealthcareQI"),
-    menuItem("Hospital Prices",tabName = "HospitalPrices"),
-    menuItem("Hospital Charge to Cost Ratios",tabName = "CCR")
+    menuItem("Healthcare Resources",tabName = "HCareResources"),
+    menuItem("Healthcare Utilization",tabName = "HCareUtilization"),
+    menuItem("Healthcare Quality",tabName = "HealthcareQI"),
+    menuItem("Hospital Prices in",tabName = "HospitalPrices"),
+    menuItem("Average Charge to Cost Ratios",tabName = "CCR"),
+    menuItem("Top 100 High Markup Hospitals in USA",tabName = "highMarkup")
   )
 )
 

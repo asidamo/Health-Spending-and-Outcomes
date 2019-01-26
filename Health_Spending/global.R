@@ -59,6 +59,8 @@ utilmeasures<-sort(utilmeasures$Measure)
 # read health care quality data
 healthcareQI<-readRDS('./data/healthcareQI')
 
+colnames(healthcareQI)<-c("Country","year","Indicator","ConsultationSkipped","MedicalTestSkipped","PrescibedMedicineSkipped","EnoughTimeWithDoctors","WaitingforAppointment")
+
 
 # let's read charges hospitals
 
@@ -69,3 +71,5 @@ colnames(hospitalPrices)<-c("Country","AveragePricePerAppendectomy","AveragePric
 # let's read charge to cost ratio by States
 
 ccr_df<-readRDS('./data/ccr_df')
+
+markup<-read_rds('./data/highmarkHosp')

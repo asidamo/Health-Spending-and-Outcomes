@@ -9,7 +9,7 @@ HospitalPrices_tab<-tabItem(
         # select input
         # Select variable for y-axis
         column(6,selectInput(inputId = "hospitalCharges_y", 
-                             label = "Y-axis:",
+                             label = "Prices Per Hospital Procedures:",
                              choices = colnames(hospitalPrices)[2:5],
                              selected=colnames(hospitalPrices)[1]))
         ,

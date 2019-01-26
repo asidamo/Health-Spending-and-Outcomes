@@ -15,7 +15,7 @@ ChargetoCostRatio_tab<-tabItem(
         # select input
         # Select variable for y-axis
         column(3,selectInput(inputId = "ccr_y", 
-                             label = "Y-axis:",
+                             label = "Charge to Cost Ratio:",
                              choices = 'AverageCCR' ))
         ,
        

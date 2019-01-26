@@ -18,7 +18,7 @@ HCareUtilization_Server<-function(input,output,Session){
       } else if ( input$util_y=='CurativeCareAverageLengthofStay'){
         ylabel=utilmeasures[2]
       } else if(input$util_y=='CaesareanSection'){
-        ylabel=utilmeasures[3]
+        ylabel="procedures per 1000 live births"
       } else if (input$util_y=='Doctorsconsultations'){
         ylabel=utilmeasures[4]
       } else {

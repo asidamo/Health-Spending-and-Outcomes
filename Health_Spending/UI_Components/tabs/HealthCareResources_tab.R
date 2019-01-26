@@ -7,12 +7,12 @@ HealthCareResources_tab<-tabItem(
       
     
         
-        column(6,selectInput('hresources_var',"y_axis",
+        column(6,selectInput('hresources_var',"Health Care Resource Indicators:",
                              choices = hresourcevars,
                              selected= hresourcevars[2]))
         ,
     
-        
+      
         
         
         

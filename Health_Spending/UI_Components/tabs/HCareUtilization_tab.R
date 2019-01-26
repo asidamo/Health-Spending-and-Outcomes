@@ -19,7 +19,7 @@ HCareUtilization_tab<-tabItem(
         # Select variable for y-axis
         
         column(6, selectInput(inputId = "util_y",
-                              label="y-axis",
+                              label="Utilization Indicators",
                               choices = colnames(utilization)[4:8],
                               selected = colnames(utilization)[7]))
         ,
