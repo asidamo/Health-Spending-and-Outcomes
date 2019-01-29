@@ -16,7 +16,7 @@ The multiple payer system combined with non-standardized charging and transactio
 
 Data Sources
 
-Hospital Price data is obtained from Kaiser FAmily Foundation Website, Hospital Charge to Cost ratio data is obtained from CMS.All other data are obtained from OECD Stats website.
+Hospital Price data is obtained from Kaiser FAmily Foundation Website, Hospital Charge to Cost ratio data is obtained from CMS.All other data are obtained from OECD Stats website. The Indicators used are not exhaustive. It is choisen  based on availability. 
 
 Research Questions
 -	Are healthcare services over consumed in USA compared with other countries?
@@ -28,5 +28,6 @@ Research Questions
 Methodology 
 Descriptive analysis like plots, tables, and charts are be used. 
 
-
 Conclusion 
+
+People in USA  are Consuming Relatively Technology Intensive healthcare Services. USA healthcare doesn’t Look best in Quality considered in this project, except efficient in waiting times.USA Healthcare Prices are Expensive and Providers are Charging  High Markups. Administration of Healthcare is costing a lot in USA.
