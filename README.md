@@ -28,7 +28,8 @@ Research Questions
 
 Methodology and Description of the App   
 
-Descriptive analysis like plots, tables, and charts are be used. 
+Descriptive analysis like plots, tables, and charts are used.  Health spending time serious data is used to show trend over time,
+for health utilization different years are compared, and for all others the most recent available data are used.
 The app mainly shows the following health spending and health outcome indicators.
 Tab1: 1Health spending by categories are analyzed: per capita health spending , per capita pharmaceutical spending and percentage share of curative and rehabilitative care, preventive care and administration costs.
 Tab2: Shows health resources availability indicators such as active physicians, number of MRI , number of CT scanners and hospital beds.
