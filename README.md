@@ -39,6 +39,7 @@ Tab5: shows average hospital prices for four procedures: appendoctomy , c-sectio
 Tab6: shows average charge to cost ratio of hospitals by States in USA based on Diagonsis related groups(DRG).
 Tab7: Shows lists of the top 100 Hospitals in USA with high charge to cost ratio(CCR).
 
+
 Conclusion 
 
 The indicators used are not exhuastive becuase of missing problems for some of thh years.Based on the indicators use in the project people in USA  are consuming relatively technology intensive healthcare services. USA healthcare doesn’t Look best in quality indicators considered in this project, except efficient in waiting times to see specialist.USA Healthcare prices are expensive and providers are charging  high markups. Administration of healthcare is costing a lot in USA compared with other developed countries.
