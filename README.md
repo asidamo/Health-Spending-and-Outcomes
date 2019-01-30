@@ -28,6 +28,10 @@ Research Questions
 Methodology 
 Descriptive analysis like plots, tables, and charts are be used. 
 
+Results 
+
+
+
 Conclusion 
 
-People in USA  are Consuming Relatively Technology Intensive healthcare Services. USA healthcare doesn’t Look best in Quality considered in this project, except efficient in waiting times.USA Healthcare Prices are Expensive and Providers are Charging  High Markups. Administration of Healthcare is costing a lot in USA.
+The indicators used are not exhuastive becuase of missing problems for some of thh years.Based on the indicators use in the project people in USA  are consuming relatively technology intensive healthcare services. USA healthcare doesn’t Look best in quality indicators considered in this project, except efficient in waiting times to see specialist.USA Healthcare prices are expensive and providers are charging  high markups. Administration of healthcare is costing a lot in USA compared with other developed countries.
