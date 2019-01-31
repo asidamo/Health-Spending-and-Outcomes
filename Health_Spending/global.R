@@ -72,4 +72,4 @@ colnames(hospitalPrices)<-c("Country","AveragePricePerAppendectomy","AveragePric
 
 ccr_df<-readRDS('./data/ccr_df')
 
-markup<-read_rds('./data/highmarkHosp')
+markup<-readRDS('./data/highmarkHosp')

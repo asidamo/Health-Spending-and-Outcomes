@@ -14,15 +14,22 @@ highmarkup_tab <-tabItem(
         'input.dataset === "markup"',
         checkboxGroupInput("show_vars", "sorting Variables:",
                            names(markup), selected = names(markup))
-        )
+                )
       ),
-    mainPanel(
+    
+  
+    # Button
+
+        mainPanel(
       tabsetPanel(
         id = 'dataset',
         tabPanel("markup", DT::dataTableOutput("mytable1"))
+        
+       
+        )
       )
     )
   )
   )   
 )
-)
+
