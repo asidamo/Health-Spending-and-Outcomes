@@ -39,4 +39,4 @@ Tab7: Shows lists of the top 100 Hospitals in USA with high charge to cost ratio
 
 Conclusion 
 
-The indicators used are not exhaustive because of missing problems for some of years. Based on the indicators use in the project people in USA are consuming relatively technology intensive healthcare services. USA healthcare doesn’t Look best in quality indicators considered in this project, except efficient in waiting times to see specialist. USA Healthcare prices are expensive and providers are charging high markups. Administration of healthcare is costing a lot in USA compared with other developed countries.
+The indicators used are not exhaustive because of missing problems for some of years. Based on the indicators used in the project people in USA are consuming relatively technology intensive healthcare services. USA healthcare doesn’t Look best in quality indicators considered in this project, except efficient in waiting times to see specialist. USA Healthcare prices are expensive and providers are charging high markups. Administration of healthcare is costing a lot in USA compared with other developed countries.
